@@ -10,11 +10,9 @@ public class Principal {
      * Complejidad temporal: O(1) Tiempo constante.
      */
     public static void main(String[] args) {
-        Camisa camisaMangaCorta = new Camisa("Camisa Casual", "M", "Azul", 35000, false);
-        Pantalon pantalonChino = new Pantalon("Pantalón Jean", "L", "Negro", 75000, "Slim Fit");
+        Circulo circulobonito= new Circulo("Circulo", "Rojo");
+        Triangulo triangulonormal= new Triangulo("Triangulo", "Verde");
+        Rectangulo rectangulo= new Rectangulo("Rectangulo","Azul");
 
-        camisaMangaCorta.mostrarInfo();
-        System.out.println("\n");
-        pantalonChino.mostrarInfo();
     }
 }
